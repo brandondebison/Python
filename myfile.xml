@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<catalog>
+ <book id ="bk101">
+    <author>Author 1 </author>
+    <title>Title 1 </title>
+    <genre>Genre 1 </genre> 
+    <price>Price 1</price> 
+    <publish_date>2001-01-01</publish_date> 
+    <description>Descirption of book1</description>
+</book>
+<book id ="bk102">
+    <author>Author 2</author>
+    <title>Title 2</title>
+    <genre>Genre 2</genre> 
+    <price>Price 2</price> 
+    <publish_date>2002-02-02</publish_date>
+    <description>Descirption of book2</description>
+</book>
+<book id ="bk103">
+    <author>Author 3</author>
+    <title>Title 3</title>
+    <genre>Genre 3</genre> 
+    <price>Price 3</price> 
+    <publish_date>2003-03-03</publish_date> 
+    <description>Descirption of book3</description>
+</book>
+</catalog>

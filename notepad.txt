@@ -1,0 +1,10 @@
+i1 = title
+        i2 = fristName
+        i3 = lastName
+        i4 = street
+        i5 = city
+        i6 = province
+        i7 = postalCode
+        i8 = country
+        i9 = phone
+        i10 = email

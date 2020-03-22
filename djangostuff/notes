@@ -1,0 +1,39 @@
+db.mysqlite3 
+
+go into books folder
+under views
+
+
+on bottom of views
+    from django.from django.views.generic.edit import CreateView, UpdateView, DeleteView 
+    from django.core.urlresolvers import reverse_lazy
+
+    class BookCreate(CreateView):
+        model = Book;
+        fields = ['name', 'pages'] 
+        success_url = reverse_lazy('book_index')
+    
+    go over to urls 
+
+    from books.views import BooksView, BookCreate
+
+    under urlpatterns = { 
+
+
+        url(r'^books/new$', BookCreate.as_view)
+    }
+
+    over to template
+
+
+
+    over to books_index 
+
+        <a href="{}
+
+
+on dalyces file, 
+
+made changes to views, and urls like above 
+made a folder called books, then file called book_form.html 
+
